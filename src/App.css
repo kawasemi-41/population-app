@@ -1,0 +1,19 @@
+body {
+  background-color: #f5f7fa;
+}
+
+.population-table {
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.population-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.table td,
+.table th {
+  white-space: nowrap;
+}
